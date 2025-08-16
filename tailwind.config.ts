@@ -52,15 +52,25 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				// Chat-specific colors
+				message: {
+					sent: 'hsl(var(--message-sent))',
+					'sent-foreground': 'hsl(var(--message-sent-foreground))',
+					received: 'hsl(var(--message-received))',
+					'received-foreground': 'hsl(var(--message-received-foreground))',
+					system: 'hsl(var(--message-system))',
+					'system-foreground': 'hsl(var(--message-system-foreground))'
+				},
+				status: {
+					online: 'hsl(var(--online))',
+					away: 'hsl(var(--away))',
+					busy: 'hsl(var(--busy))',
+					offline: 'hsl(var(--offline))'
+				},
+				privacy: {
+					encrypted: 'hsl(var(--encrypted))',
+					unencrypted: 'hsl(var(--unencrypted))',
+					verified: 'hsl(var(--verified))'
 				}
 			},
 			borderRadius: {
